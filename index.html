@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DanJak - Home</title>
+    <link rel="shortcut icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <body id="Sfondo" background="img/home_slider_1.jpg"></body>
+    
+    <div id="menu">
+        <div class="sezioneMenu" id="sezioneCorrente" onclick="openUrl('index.html', '_self')">HOME</div>
+        <div class="sezioneMenu" onclick="openUrl('./pagine/negozio.html', '_self')">NEGOZIO</div>
+        <div class="sezioneMenu" onclick="openUrl('./pagine/chisono.html', '_self')">CHI SONO</div>
+    </div>
+
+    <div id="containerSuperiore">
+        <div id="title">HOME</div>
+    </div>
+
+    <div id="seguimiSuHome">
+        <div>Seguimi su</div>
+        <div onclick="openUrl('https:/\/www.youtube.com/c/DanJakyt', '_blank')"><img
+                src="img/youtube icon.png" alt="Youtube icon">YOUTUBE</div>
+        <div onclick="openUrl('https:/\/discord.gg/5fj53unrWe', '_blank')"><img src="img/discord icon.png"
+                alt="Discord icon">DISCORD</div>
+    </div>
+
+
+
+    <div id="container">
+        
+        <img src="img/right-arrow.png" class="Freccetta" id="freccia">
+
+        <marquee id=scorr>
+                Benvenuti nel mio sito!<br>
+        </marquee>
+
+
+        
+
+        <div id="contenuti">
+            <div class="sezioneContenuto">
+                <div class="imgContenuto"><img src="img/discordBot.jpg" alt="Discord"></div>
+                <div class="titleContenuto">Discord Bot</div>
+                <div class="descriptionContenuto">Tutorial su come creare tantissimi comandi e funzioni per il vostro
+                    Bot Discord!</div>
+            </div>
+
+            <div class="sezioneContenuto">
+                <div class="imgContenuto"><img src="img/creareSiti.jpg" alt="Creare siti"></div>
+                <div class="titleContenuto">Creare siti web</div>
+                <div class="descriptionContenuto">Serie di video in cui insieme andiamo a creare siti web con l'utilizzo
+                    di HTML - CSS - Javascript</div>
+            </div>
+
+            <div class="sezioneContenuto">
+                <div class="imgContenuto"><img src="img/altriTutorial.jpg" alt="Altri tutorial"></div>
+                <div class="titleContenuto">Tutorial vari</div>
+                <div class="descriptionContenuto">Non solo tutorial incentrati sulla programmazione, ma anche di più
+                    particolari.</div>
+            </div>
+
+        </div>
+        <div id="discord">
+            <div id="discordTesti">
+                <div id="discordTitle">Centrale Nucleare</div>
+                <div id="discordDescription">Un server Discord in cui tutti noi possiamo parlare assieme, discutere  di affari nostri, 
+                    divertirci e molto altro. Molti canali e comandi gestiti dal mio
+                    bot realizzato personalmente
+                    <br>Venite ed entrate per divertirci tutti insieme</div>
+            </div>
+            <div id="discordImg">
+                <img src="img/discordBot.jpg" alt="DanJak">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
