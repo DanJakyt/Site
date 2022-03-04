@@ -68,29 +68,55 @@ nav .menu{
   width: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
-.center{
+
+
+
+/*CONTAINER*/
+.centerContainer{ /*CENTRATORE-BOX*/
   position: absolute;
-  top: 52%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   padding: 0 20px;
   text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-.center .title{
-  color: #fff;
-  font-size: 55px;
-  font-weight: 600;
+#containerSelezione{ /*BOX*/
+  height: 350px;
+  width: 500px;
+  border-radius: 5px;
+  opacity: 80%;
+  background-color: #000;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  flex-direction: column;
 }
-.center .sub_title{
-  color: #fff;
-  font-size: 52px;
-  font-weight: 600;
+.containerTitle{  /*TITOLO*/
+  font-family: 'Poppins',sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  font-weight: bold;
 }
-.center .btns{
+.containerDescription{  /*DESCRIZIONE*/
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: start;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.centerContainer .btns{  /*BOTTONE*/
   margin-top: 20px;
 }
-.center .btns button{
+.centerContainer .btns button{ /*BOTTONE*/
   height: 55px;
   width: 170px;
   border-radius: 5px;
@@ -104,40 +130,7 @@ nav .menu{
   outline: none;
   transition: all 0.3s ease;
 }
-.center .btns button:first-child{
+.centerContainer .btns button:first-child{ /*BOTTONE*/
   color: #fff;
   background: none;
-}
-.btns button:first-child:hover{
-  background: white;
-  color: black;
-}
-.center .btns button:last-child{
-  background: white;
-  color: black;
-}
-
-
-/*CONTAINER*/
-
-#container1{
-  width: 700px;
-  height: 500px;
-  border-radius: 20px;
-  margin-top: 10%;
-  margin-left: 10%;
-  background-color: #1b1b1b;
-}
-.titleContainer1{
-  color: #fff;
-  font-family: 'Poppins',sans-serif;
-  font-size: 30px;
-  text-align: center;
-}
-.descriptionContainer1{
-  color: #fff;
-  margin-left: 10px;
-  font-family: 'Poppins',sans-serif;
-  font-size: 20px;
-  text-align: start;
 }
