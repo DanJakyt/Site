@@ -3,7 +3,7 @@ function openUrl(url, pagina) {
 }
 
 
-
+//COPIATESTO
 function copia(testo) {
     var input = document.createElement('input');
     var copia = document.getElementById(testo).value;
@@ -15,4 +15,3 @@ function copia(testo) {
     alert('IL TESTO È STATO COPIATO CON SUCCESSO!');
     return risultato;
 }
-
