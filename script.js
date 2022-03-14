@@ -1,3 +1,4 @@
+//LINKPAGINA
 function openUrl(url, pagina) {
     window.open(url, pagina)
 }
@@ -15,3 +16,7 @@ function copia(testo) {
     alert('IL TESTO È STATO COPIATO CON SUCCESSO!');
     return risultato;
 }
+
+
+//ALLERT
+window.alert("QUESTO SITO È ESCLUSIVAMENTE DA USARE SU PC FISSO/PORTATILE")
