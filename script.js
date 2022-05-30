@@ -17,6 +17,3 @@ function copia(testo) {
     return risultato;
 }
 
-
-//ALLERT
-window.alert("QUESTO SITO È ESCLUSIVAMENTE DA USARE SU PC FISSO/PORTATILE")

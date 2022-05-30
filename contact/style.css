@@ -9,6 +9,13 @@
   color: #000;
   background: #fff;
 }
+::-webkit-scrollbar{
+  width: 20px;
+
+}
+::-webkit-scrollbar-thumb{
+  background: #363636;
+}
 nav{
   position: fixed;
   background: #1b1b1b;
@@ -115,4 +122,13 @@ nav .menu{
 .center .btns button:last-child{
   background: white;
   color: black;
+}
+
+
+.discordWidghet{
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  border: 0ch;
+  right: 20px;
 }

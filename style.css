@@ -9,6 +9,14 @@
   color: #000;
   background: #fff;
 }
+::-webkit-scrollbar{
+  width: 20px;
+
+}
+::-webkit-scrollbar-thumb{
+  background: #363636;
+}
+
 nav{
   position: fixed;
   background: #1b1b1b;
