@@ -10,13 +10,21 @@
   background: #fff;
 }
 ::-webkit-scrollbar{
-  width: 20px;
+  width: 10px;
 
 }
 ::-webkit-scrollbar-thumb{
-  background: #363636;
+  background: #222222;
 }
 
+
+
+
+
+
+
+
+/*INDEX*/
 nav{
   position: fixed;
   background: #1b1b1b;
@@ -123,4 +131,246 @@ nav .menu{
 .center .btns button:last-child{
   background: white;
   color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BIO*/
+#bio{
+  background-color: #363636;
+}
+/*PROGRAMMATORE*/
+.Programmatore{
+  width: 80%;
+  height: 100vh;
+  border-radius: 20px;
+
+  background-color: #d4d4d4;
+
+  position: absolute;
+  top: 16%;
+  left: 16%;
+}
+.titleProgrammatore{
+  text-align: center;
+  font-size: 60px;
+}
+.imgProgrammatore{
+  border-radius: 20px;
+
+  width: 40%;
+
+  margin-top: 10px;
+  margin-left: 30%;
+}
+.desriptionProgrammatore{
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+.centratesto{
+  text-align: center;
+}
+.btnsProgrammazione{
+  height: auto;
+  width: 180px;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+  background: none;
+  margin-left: 45%;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btnsProgrammazione:hover{
+  background: white;
+  color: black;
+}
+/*VISUALDESIGNER*/
+.VisualDesigner{
+  width: 80%;
+  height: 60vh;
+  border-radius: 20px;
+
+  background-color: #d4d4d4;
+
+  position: absolute;
+  top: 120%;
+  left: 8%;
+}
+.titleVisualDesigner{
+  text-align: center;
+  font-size: 60px;
+}
+.imgVisualDesigner{
+  border-radius: 20px;
+
+  width: 40%;
+
+  margin-top: 10px;
+  margin-left: 30%;
+}
+.desriptionVisualDesigner{
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+/*Robotica*/
+.Robotica{
+  width: 80%;
+  height: 65vh;
+  border-radius: 20px;
+
+  background-color: #d4d4d4;
+
+  position: absolute;
+  top: 185%;
+  left: 16%;
+}
+.titleRobotica{
+  text-align: center;
+  font-size: 60px;
+}
+.imgRobotica{
+  border-radius: 20px;
+
+  width: 40%;
+
+  margin-top: 10px;
+  margin-left: 30%;
+}
+.desriptionRobotica{
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+/*TELECOMUNICAZIONI*/
+.Telecomunicazioni{
+  width: 80%;
+  height: 65vh;
+  border-radius: 20px;
+
+  background-color: #d4d4d4;
+
+  position: absolute;
+  top: 255%;
+  left: 8%;
+}
+.titleTelecomunicazioni{
+  text-align: center;
+  font-size: 60px;
+}
+.imgTelecomunicazioni{
+  border-radius: 20px;
+
+  width: 40%;
+
+  margin-top: 10px;
+  margin-left: 30%;
+}
+.desriptionTelecomunicazioni{
+  margin-top: 15px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*APPLICATION*/
+#app{
+  background-color: #363636;
+}
+#contenuti{
+  width:80%;
+  height: fit-content;
+  margin: 0 auto;
+}
+.sezioneContenuto{
+  width:400px;
+  height: 400px;
+  margin: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+
+  display: inline-block;
+  margin-top: 10%;
+}
+.imgContenuto{
+  width: 90%;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+}
+.imgContenuto img{
+  width: 50%;
+}
+.titleContenuto{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width:90%;
+  margin: 20px auto;
+}
+.descriptionContenuto{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:90%;
+  height: 150px;
+  margin: 0 auto;
 }
