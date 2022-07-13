@@ -374,3 +374,65 @@ nav .menu{
   height: 150px;
   margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACT*/
+.imgContact{
+  background: url('image/coding_on_screen.jpeg') no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+/*DISCORD*/
+#discord{
+  background-color: cornflowerblue;
+}
+.discordWidget{
+  margin: 120px 150px;
+}
+.center .btnsDiscord button{
+  height: 55px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid #2558b6;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 1s ease;
+}
+.center .btnsDiscord button:first-child{
+  color: #2558b6;
+  background: none;
+}
+.btnsDiscord button:first-child:hover{
+  background: #2558b6;
+  color: white;
+
+}
+textarea{
+  background-color: cornflowerblue;
+  opacity: 0%;
+  cursor: default;
+}

@@ -7,13 +7,12 @@ function openUrl(url, pagina) {
 //COPIATESTO
 function copia(testo) {
     var input = document.createElement('input');
-    var copia = document.getElementById(testo).value;
-    input.setAttribute('value', copia);
+    var area = document.getElementById(testo).value;
+    input.setAttribute('value', area);
     document.body.appendChild(input);
     input.select();
     var risultato = document.execCommand('copy');
     document.body.removeChild(input);
-    alert('IL TESTO È STATO COPIATO CON SUCCESSO!');
+    alert('testo copiato: '+ area);
     return risultato;
-}
-
+ }
