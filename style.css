@@ -95,12 +95,12 @@ nav .menu{
 }
 .center .title{
   color: #fff;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 600;
 }
 .center .sub_title{
   color: #fff;
-  font-size: 52px;
+  font-size: 20px;
   font-weight: 600;
 }
 .center .btns{
@@ -111,7 +111,7 @@ nav .menu{
   width: 170px;
   border-radius: 5px;
   border: none;
-  margin: 0 10px;
+  margin: 10px 10px;
   border: 2px solid white;
   font-size: 20px;
   font-weight: 500;
@@ -162,19 +162,19 @@ nav .menu{
 }
 /*PROGRAMMATORE*/
 .Programmatore{
-  width: 80%;
-  height: 100vh;
+  width: 75%;
+  height: 80vh;
   border-radius: 20px;
 
   background-color: #d4d4d4;
 
-  position: absolute;
-  top: 16%;
-  left: 16%;
+  float:left;
+  margin-top: 5%;
+  padding: 2%;
 }
 .titleProgrammatore{
   text-align: center;
-  font-size: 60px;
+  font-size: 20px;
 }
 .imgProgrammatore{
   border-radius: 20px;
@@ -186,194 +186,26 @@ nav .menu{
 }
 .desriptionProgrammatore{
   margin-left: 10px;
-  font-size: 20px;
-  color: black;
-}
-.centratesto{
-  text-align: center;
-}
-.btnsProgrammazione button{
-  height: auto;
-  width: 180px;
-  border-radius: 5px;
-  border: 2px solid white;
-  color: white;
-  background: none;
-  margin-left: 45%;
-  margin-top: 20px;
-  font-size: 20px;
-  padding: 0 10px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.btnsProgrammazione button:hover{
-  background: white;
-  color: black;
-}
-/*VISUALDESIGNER*/
-.VisualDesigner{
-  width: 80%;
-  height: 60vh;
-  border-radius: 20px;
-
-  background-color: #d4d4d4;
-
-  position: absolute;
-  top: 120%;
-  left: 8%;
-}
-.titleVisualDesigner{
-  text-align: center;
-  font-size: 60px;
-}
-.imgVisualDesigner{
-  border-radius: 20px;
-
-  width: 40%;
-
-  margin-top: 10px;
-  margin-left: 30%;
-}
-.desriptionVisualDesigner{
-  margin-left: 10px;
-  font-size: 20px;
-  color: black;
-}
-
-/*Robotica*/
-.Robotica{
-  width: 80%;
-  height: 65vh;
-  border-radius: 20px;
-
-  background-color: #d4d4d4;
-
-  position: absolute;
-  top: 185%;
-  left: 16%;
-}
-.titleRobotica{
-  text-align: center;
-  font-size: 60px;
-}
-.imgRobotica{
-  border-radius: 20px;
-
-  width: 40%;
-
-  margin-top: 10px;
-  margin-left: 30%;
-}
-.desriptionRobotica{
-  margin-top: 15px;
-  margin-left: 10px;
-  font-size: 20px;
-  color: black;
-}
-
-/*TELECOMUNICAZIONI*/
-.Telecomunicazioni{
-  width: 80%;
-  height: 65vh;
-  border-radius: 20px;
-
-  background-color: #d4d4d4;
-
-  position: absolute;
-  top: 255%;
-  left: 8%;
-}
-.titleTelecomunicazioni{
-  text-align: center;
-  font-size: 60px;
-}
-.imgTelecomunicazioni{
-  border-radius: 20px;
-
-  width: 40%;
-
-  margin-top: 10px;
-  margin-left: 30%;
-}
-.desriptionTelecomunicazioni{
-  margin-top: 15px;
-  margin-left: 10px;
-  font-size: 20px;
+  font-size: 15px;
   color: black;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*APPLICATION*/
-#app{
-  background-color: #363636;
+@media screen and (max-width: 600px){
+  .Programmatore{
+    width: 100%;
+    position: absolute;
+    margin-top: 30%;
+  }
 }
-#contenuti{
-  width:80%;
-  height: fit-content;
-  margin: 0 auto;
-}
-.sezioneContenuto{
-  width:400px;
-  height: 400px;
-  margin: 20px;
-  background-color: white;
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
-  border-radius: 10px;
 
-  display: inline-block;
-  margin-top: 10%;
-}
-.imgContenuto{
-  width: 90%;
-  height: 250px;
-  overflow: hidden;
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 5% auto;
-}
-.imgContenuto img{
-  width: 50%;
-}
-.titleContenuto{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  width:90%;
-  margin: 20px auto;
-}
-.descriptionContenuto{
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  width:90%;
-  height: 150px;
-  margin: 0 auto;
-}
+
+
+
+
+
+
+
 
 
 
@@ -451,81 +283,3 @@ textarea{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*FAQ*/
-.faq-heading{
-  border-bottom: #777;
-  padding: 20px 60px;
-}
-.faq-container{
-display: flex;
-justify-content: center;
-flex-direction: column;
-
-}
-.hr-line{
-width: 60%;
-margin: auto;
-}
-/* Style the buttons that are used to open and close the faq-page body */
-.faq-page {
-  /* background-color: #eee; */
-  color: #444;
-  cursor: pointer;
-  padding: 30px 20px;
-  width: 60%;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  margin: auto;
-
-}
-.faq-body{
-  margin: auto;
-  /* text-align: center; */
- width: 50%; 
- padding: auto;
- 
-}
-
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.faq-page:hover {
-  background-color: #F9F9F9;
-}
-
-/* Style the faq-page panel. Note: hidden by default */
-.faq-body {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-}
-
-.faq-page:after {
-  content: '\02795';
-  /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796";
-  /* Unicode character for "minus" sign (-) */
-}
