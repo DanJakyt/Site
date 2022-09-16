@@ -138,6 +138,52 @@ nav .menu{
 
 
 
+/*APP*/
+.applicationService {
+  display: inline-flex;
+  border-bottom: 4px solid #EFEFEF;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+
+.applicationService img {
+  width: 80px;
+  filter: drop-shadow(0px 0px 1px #4b4b50);
+  animation: flutuar 3s linear infinite;
+}
+
+@keyframes flutuar {
+
+  0%,
+  100% {
+      transform: translateY(0px);
+  }
+
+  50% {
+      transform: translateY(-23px);
+  }
+}
+
+.applicationService img:nth-child(2) {
+  animation-delay: .2s;
+}
+
+.applicationService img:nth-child(3) {
+  animation-delay: .4s;
+}
+
+.applicationService img:nth-child(4) {
+  animation-delay: .6s;
+}
+
+.applicationService img:nth-child(5) {
+  animation-delay: .8s;
+}
+
+
+
+
+
 
 
 
@@ -233,53 +279,4 @@ nav .menu{
   background-position: center;
   position: relative;
 }
-/*DISCORD*/
-#discord{
-  background-color: #71C5EE;
-}
-.centerDiscord{
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  width: 50%;
-  padding: 0 20px;
-  text-align: center;
-}
-.discordWidget{
-  margin: 130px 150px;
-}
-.centerDiscord .btnsDiscord button{
-  height: 55px;
-  width: 250px;
-  border-radius: 5px;
-  border: none;
-  margin: 0 10px;
-  border: 2px solid #2558b6;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 0 10px;
-  cursor: pointer;
-  outline: none;
-  transition: all 1s ease;
-}
-.centerDiscord .btnsDiscord button:first-child{
-  color: #2558b6;
-  background: none;
-}
-.btnsDiscord button:first-child:hover{
-  background: #2558b6;
-  color: white;
-
-}
-textarea{
-  background-color: cornflowerblue;
-  opacity: 0%;
-  cursor: default;
-}
-
-
-
-
-
-
 
