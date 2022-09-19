@@ -235,8 +235,6 @@ nav .menu{
   font-size: 15px;
   color: black;
 }
-
-
 @media screen and (max-width: 600px){
   .Programmatore{
     width: 100%;
@@ -244,18 +242,16 @@ nav .menu{
     margin-top: 30%;
   }
 }
+.Programmatore_img{
+  width: auto;
+  height: 35%;
 
-
-
-
-
-
-
-
-
-
-
-
+  position: relative;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
 
@@ -279,4 +275,13 @@ nav .menu{
   background-position: center;
   position: relative;
 }
+.btnsIconC{
+  width: auto;
+  height: 35%;
 
+  position: relative;
+  top: 23%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
